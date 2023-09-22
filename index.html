@@ -3,30 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Formulário de contato</title>
 </head>
 
 <body>
     <form action="#">
+        <fieldset>
         <legend>Formulário de contato</legend>
         <label for="name"> Seu nome
-            <input type="text" id="name" placeholder="Digite seu nome completo">
+            <input type="text" id="name" placeholder="Digite seu nome completo" required>
         </label>
 
         <label for="email"> Email
-            <input type="email" id="email" placeholder="Digite um email válido">
+            <input type="email" id="email" placeholder="Digite um email válido" required>
         </label>
 
         <label for="subject"> Assunto
-            <textarea name="" id="subject" cols="20" rows="1" readonly></textarea>
+           <input type="text" id="subject">
         </label>
 
         <label for="msg"> Mensagem
             <textarea name="" id="msg" cols="30" rows="10"></textarea>
         </label>
 
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" class="btn">
+    </fieldset>
     </form>
 </body>
 
