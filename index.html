@@ -11,23 +11,24 @@
     <form action="#" autocomplete="off">
         <fieldset>
             <legend>Formulário de contato</legend>
-            <label for="name"> Seu nome </label>
-            <input type="text" id="name" placeholder="Digite seu nome completo" required>
+            <label for="name"> Seu nome</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome completo" required>
 
 
-            <label for="email"> Email</label>
-            <input type="email" id="email" placeholder="Digite um email válido" required>
+            <label for="email"> E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite um email válido" required>
 
 
             <label for="subject"> Assunto</label>
-            <input type="text" id="subject">
+            <input type="text" name="subject" id="subject">
 
 
-            <label for="msg"> Mensagem </label>
-            <textarea name="" id="msg" cols="30" rows="10"></textarea>
+            <label for="message"> Mensagem </label>
+            <textarea name="message" id="message" cols="" rows="7" required maxlength="1000" minlength="20"
+                placeholder="conte-nos tudo"></textarea>
 
 
-            <input type="submit" value="Enviar" class="btn">
+            <button type="submit" class="btn">Enviar</button>
         </fieldset>
     </form>
 </body>
