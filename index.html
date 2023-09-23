@@ -12,20 +12,20 @@
         <fieldset>
         <legend>Formulário de contato</legend>
         <label for="name"> Seu nome
-            <input type="text" id="name" placeholder="Digite seu nome completo" required>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome completo" required>
         </label>
 
         <label for="email"> Email
-            <input type="email" id="email" placeholder="Digite um email válido" required>
+            <input type="email" name="email" id="email" placeholder="Digite um email válido" required>
         </label>
 
         <label for="subject"> Assunto
-           <input type="text" id="subject">
+           <input type="text" name="subject" id="subject">
         </label>
 
-        <label for="msg"> Mensagem
-            <textarea name="" id="msg" cols="30" rows="10"></textarea>
-        </label>
+        <label for="message"> Mensagem </label>
+            <textarea name="message" id="message" cols="" rows="7" required maxlength="1000" minlength="20" placeholder="conte-nos tudo"></textarea>
+        
 
         <input type="submit" value="Enviar" class="btn">
     </fieldset>
