@@ -8,27 +8,28 @@
 </head>
 
 <body>
-    <form action="#">
+    <form action="#" autocomplete="off">
         <fieldset>
-        <legend>Formulário de contato</legend>
-        <label for="name"> Seu nome
+            <legend>Formulário de contato</legend>
+            <label for="name"> Seu nome</label>
             <input type="text" name="name" id="name" placeholder="Digite seu nome completo" required>
-        </label>
 
-        <label for="email"> Email
+
+            <label for="email"> E-mail</label>
             <input type="email" name="email" id="email" placeholder="Digite um email válido" required>
-        </label>
 
-        <label for="subject"> Assunto
-           <input type="text" name="subject" id="subject">
-        </label>
 
-        <label for="message"> Mensagem </label>
-            <textarea name="message" id="message" cols="" rows="7" required maxlength="1000" minlength="20" placeholder="conte-nos tudo"></textarea>
-        
+            <label for="subject"> Assunto</label>
+            <input type="text" name="subject" id="subject">
 
-        <input type="submit" value="Enviar" class="btn">
-    </fieldset>
+
+            <label for="message"> Mensagem </label>
+            <textarea name="message" id="message" cols="" rows="7" required maxlength="1000" minlength="20"
+                placeholder="conte-nos tudo"></textarea>
+
+
+            <button type="submit" class="btn">Enviar</button>
+        </fieldset>
     </form>
 </body>
 
